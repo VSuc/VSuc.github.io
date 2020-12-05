@@ -202,12 +202,12 @@ function drawChart(labels, data)
                 {
                     display:true,
                     labelString: "°C",
-                    fontSize:30
+                    fontSize:20
 
                 },
                 ticks: 
                 {
-                    fontSize: 45,
+                    fontSize: 20,
                     suggestedMin: 0,
                     suggestedMax: 20 
                 }
@@ -217,7 +217,7 @@ function drawChart(labels, data)
 
                 ticks: 
                 {
-                    fontSize: 40,
+                    fontSize: 20,
                     padding:10
                 }
             }]

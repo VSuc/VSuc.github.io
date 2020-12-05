@@ -10,7 +10,7 @@ body{
 
 #name {
     
-    font-size: 60px;
+    font-size: 80px;
     color: orange;
     height: 100%;
 }
@@ -62,9 +62,6 @@ body{
     display: inline-block;
 }
 
-#graphWrapper {
-    display: none;
-}
 
 .row
 {
@@ -116,9 +113,12 @@ body{
     
 }
 
-#lineChart{
-    width:560px !important;
-    height:400px !important;
-    margin-top: 20px;
+#chartWrapper
+{
+    margin-top: 30px;
+    width: 600px;
+    left: auto;
+    right: auto;
+    margin-right: 60px;
 }
 
