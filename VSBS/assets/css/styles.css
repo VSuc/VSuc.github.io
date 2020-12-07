@@ -11,6 +11,11 @@ h2
     text-align: center;
 }
 
+h3
+{
+    color: #91918e;
+}
+
 h4
 {
     text-align: center;
@@ -600,16 +605,22 @@ a:hover
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     max-width: 100%;
-    background-color:#91918e;
+    background-color:white;
     color: white;
 }
 
 .bubbles-titles
 {
     font-size: 2vw;
+}
+
+.bubbles-text
+{
+    font-size:15px;
+    color: #91918e;
 }
 
 .head_note {
@@ -623,6 +634,11 @@ a:hover
     font-size: 16px;
     text-align: center;
     color: white;
+}
+
+#about-text
+{
+    background-color: #91918e;
 }
 
 #join{
