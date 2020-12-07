@@ -16,7 +16,7 @@
             <ul>
                 <li><a href="./index.html">Domů</a></li>
                 <li><a href="./about.html">O nás</a></li>
-                <li><a href="./blog.html">Blog</a></li>
+                <li><a class="active" href="./blog.html">Blog</a></li>
                 <li><a href="./contact.html">Kontakt</a></li>
             </ul>
         </div>
@@ -186,6 +186,31 @@
                 </section>
             </div>
         </section>
+        
+        <section id= "contact">
+            <h2>Máte dotaz?</h2>
+            <h3>Pošlete nám zprávu!</h3>
+            <form id="contact-form" style="margin-left: auto;margin-right: auto;">
+                <div class="container row justify-content-center">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="name" class="form-control" id="inputName" placeholder="Jméno" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="surname" class="form-control" id="inputSurname" placeholder="Přijmení" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="inputSubject" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6">  
+                                <textarea style="width: 100%;" type="message" class="form-control" rows="5" id="inputMessage" placeholder="Vaše zpráva..." required></textarea>
+                        </div>
+                </div>
+                 <button type="submit" class="btn">ODESLAT</button>
+            </form>            
+        </section>
+        
         <footer id="footer">
             <div class="footer">                
                     <div class="container row">

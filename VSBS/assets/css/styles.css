@@ -10,6 +10,11 @@ a {
     text-decoration: none; 
 }
 
+a:hover
+{
+    color:#91916a;
+}
+
 /*Global*/
 .container {
     margin: 0 auto;
@@ -40,6 +45,10 @@ a {
     padding: 25px;
 }
 
+.header a.active
+{
+    color: #91916a;
+}
 /*Header-image*/
 #showcase-image {
     top: 0px;
@@ -69,7 +78,7 @@ a {
 
 #showcase-image h1 {
     text-transform: uppercase;
-    font-size: 80px;
+    font-size: calc(3rem + 2vw);
     padding: 50px 50px 50px 50px;
 }
 
@@ -133,6 +142,11 @@ a {
 }
 
 /*Contact*/
+#contact
+{
+    text-align: center;
+    margin-top: 1vw;
+}
 
 #contact-names {
     text-align: center;
@@ -150,7 +164,13 @@ a {
 }
 
 #contact-form .btn {
+    text-decoration: none;
     background-color: #91918e;
+    color:white;
+    padding: 10px 10px;
+    font-size: 20px;
+    border-radius: 3px;
+    margin-top: 1vw;
 }
 
 #contact-form textarea {
@@ -267,48 +287,30 @@ a {
 
 .head {
     font-size: 40px;
-    color: #91918e;
+    color: white;
     text-align: center;
 }
-
-.slide-dots {
-    text-align: center;
-    padding-top: 15px;
-}
-
-.dot {
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.dot.active-dot {
-    background-color: #91918e;
-}
-
 
 /*calc*/
+#calc
+{
+    background-color: #91918e;
+    color: white;
+}
 #calc .container{
     text-align:center;
-    margin-bottom: 50px;
     padding: 20px 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
-#calc.index-calc .container{
-    background:none;
-}
 
 #calc-button {
     text-decoration: none;
-    background-color: #91918e;
-    color:white;
+    background-color: white;
+    color:#91918e;
     padding: 10px 10px;
     font-size: 20px;
     border-radius: 3px;
@@ -639,6 +641,10 @@ a {
     color: red;
 }
 
+.about_us
+{
+    
+}
 
 .about_us .row {
     padding-bottom: 92px;
@@ -659,7 +665,7 @@ a {
     width: 100%
     }
 
-.vertical-wrapper {  
+.bubbles-wrapper {  
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -667,6 +673,9 @@ a {
     margin: 0 auto;
     padding-top: 120px;
     padding-bottom: 120px;
+    max-width: 100%;
+    background-color:#91918e;
+    color: white;
 }
 
 .head_note {
@@ -678,7 +687,7 @@ a {
 .note {
     font-size: 16px;
     text-align: center;
-    color: #91918e;
+    color: white;
 }
 
 #join{
@@ -719,19 +728,18 @@ a {
     border-radius: 10px;
 }
 .countdownContainer{
-			position: absolute;
-            top:70%;
-            left: 50%;
-			transform : translateX(-50%) translateY(-50%);
-			text-align: center;
-			background: #ddd;
-			border: 1px solid #999;
-			padding: 10px;
-            color:#91918e;
-		}
+    margin-top: 10vw;
+    text-align: center;
+    background: #ddd;
+    border: 1px solid #999;
+    padding: 10px;
+    color:#91918e;
+    margin-left: auto;
+    margin-right: auto;
+}
  
 .info {
-    font-size: 80px;
+    font-size: calc(2rem + 2vw);
     padding: 30px;
 }
 
@@ -741,7 +749,84 @@ a {
     display: table;
 }
 
-.aboutImg
-{
-    max-width: 200px;
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation: fade 2s 1 forwards;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
