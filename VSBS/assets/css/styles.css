@@ -1,3 +1,8 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     background-color: white;
@@ -642,7 +647,8 @@ a:hover
 }
 
 #join{
-        border-top: solid 4px #91918e;
+    border-top: solid 4px #91918e;
+    background-color: #91918e;
 }
 #join .container{
     text-align:center;
@@ -655,7 +661,7 @@ a:hover
 }
 
 #join .about-join .container{
-    background:none;
+    background-color: #91918e;
 }
 
 #join-button {
