@@ -8,8 +8,8 @@ var x5CartData = {
 		'searchpage_url': 'http://localhost/',
 		'vat': 0.2,
 		'vattype': 'included', // included|excluded|none
-		'currency': '$',
-		'currency_id': 'USD',
+		'currency': '€',
+		'currency_id': 'EUR',
 		'showShipmentFields': false,
 		'cartCookie': 'x5CartProductsue5g9w4b7ad28zna',
 		'formCookie': 'x5CartFormue5g9w4b7ad28zna',
@@ -26,115 +26,21 @@ var x5CartData = {
 
 	// Cart Products
 	'products': {
-		'zfmbjtbz': {
-			'id': 'zfmbjtbz',
-			'id_user': 'Product 1',
-			'name': 'Product 1',
-			'category': '97hs3bxj',
+		'xcne4bji': {
+			'id': 'xcne4bji',
+			'id_user': 'Reaktor',
+			'name': 'Reaktor',
+			'category': 'tz9l56ch',
 			'showThumbsInShowBox': true,
 			'isNew': false,
-			'description': 'Laoreet faucibus et, viverra in cursus, massa sit nulla dictumst pede vestibulum, senectus dignissim turpis, non felis vitae dictum vel justo. A risus a porttitor interdum nec erat.',
-			'price': 8.3333333,
+			'description': 'Category: Guitar, Keyboard, Synthesizer<br />★★★★★ (4982)',
+			'price': 141.6583333,
 			'staticAvailValue': 'unknown',
-			'images': ['images/product01.jpg'],
+			'images': ['images/Reaktor.png'],
 			'imgObjects': [
 				{
-					"image": "images/product01.jpg",
-					"width": 800,
-					"height": 600
-				}
-			],
-			'link': null,
-			'showboxLink': {
-				"type": "showboxgallery",
-				"tip": {
-					"image": "",
-					"imagePosition": "top",
-					"imagePercentWidth": 50,
-					"text": "",
-					"width": 180
-				},
-				"js": {
-					"upload": {
-						"jsonly": "x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/product01.jpg','width': 800,'height': 600,'description': ''}]}, 0, this);",
-						"complete": "onclick=\"return x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/product01.jpg','width': 800,'height': 600,'description': ''}]}, 0, this);\""
-					},
-					"offline": {
-						"jsonly": "x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/product01.jpg','width': 800,'height': 600,'description': ''}]}, 0, this);",
-						"complete": "onclick=\"return x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/product01.jpg','width': 800,'height': 600,'description': ''}]}, 0, this);\""
-					}
-				},
-				"html": {
-					"upload": "<script> showboxlink22b6446399424f7b67f286c05e8044fc = {'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/product01.jpg','width': 800,'height': 600,'description': ''}]};</script>\n\n<a href=\"#\" onclick=\"return x5engine.imShowBox(showboxlink22b6446399424f7b67f286c05e8044fc, 0, this)\" class=\"<!--css_class_placeholder-->\"><!--html_content_placeholder--></a>",
-					"offline": "<script> showboxlink24b1103b62a937959eecd84183ad0cc4 = {'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/product01.jpg','width': 800,'height': 600,'description': ''}]};</script>\n\n<a href=\"#\" onclick=\"return x5engine.imShowBox(showboxlink24b1103b62a937959eecd84183ad0cc4, 0, this)\" class=\"<!--css_class_placeholder-->\"><!--html_content_placeholder--></a>"
-				}
-			},
-			'vattype': 'included', // included|excluded|none
-			'vat': 0.2,
-			'weight': 0
-		},
-		'qc0v13av': {
-			'id': 'qc0v13av',
-			'id_user': 'Product 2',
-			'name': 'Product 2',
-			'category': '97hs3bxj',
-			'showThumbsInShowBox': true,
-			'isNew': false,
-			'description': 'Lacus habitant dolor morbi urna in, ac leo magna sit tincidunt ut eget, tempor quam eget et auctor ut',
-			'price': 16.6666667,
-			'staticAvailValue': 'unknown',
-			'images': ['images/product02.jpg'],
-			'imgObjects': [
-				{
-					"image": "images/product02.jpg",
-					"width": 800,
-					"height": 600
-				}
-			],
-			'link': null,
-			'showboxLink': {
-				"type": "showboxgallery",
-				"tip": {
-					"image": "",
-					"imagePosition": "top",
-					"imagePercentWidth": 50,
-					"text": "",
-					"width": 180
-				},
-				"js": {
-					"upload": {
-						"jsonly": "x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/product02.jpg','width': 800,'height': 600,'description': ''}]}, 0, this);",
-						"complete": "onclick=\"return x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/product02.jpg','width': 800,'height': 600,'description': ''}]}, 0, this);\""
-					},
-					"offline": {
-						"jsonly": "x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/product02.jpg','width': 800,'height': 600,'description': ''}]}, 0, this);",
-						"complete": "onclick=\"return x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/product02.jpg','width': 800,'height': 600,'description': ''}]}, 0, this);\""
-					}
-				},
-				"html": {
-					"upload": "<script> showboxlinkcb0f8f546b3fda15721c7dfb9d78832b = {'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/product02.jpg','width': 800,'height': 600,'description': ''}]};</script>\n\n<a href=\"#\" onclick=\"return x5engine.imShowBox(showboxlinkcb0f8f546b3fda15721c7dfb9d78832b, 0, this)\" class=\"<!--css_class_placeholder-->\"><!--html_content_placeholder--></a>",
-					"offline": "<script> showboxlink0cf99dce1ec1bad3aacc08bedaddccb4 = {'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/product02.jpg','width': 800,'height': 600,'description': ''}]};</script>\n\n<a href=\"#\" onclick=\"return x5engine.imShowBox(showboxlink0cf99dce1ec1bad3aacc08bedaddccb4, 0, this)\" class=\"<!--css_class_placeholder-->\"><!--html_content_placeholder--></a>"
-				}
-			},
-			'vattype': 'included', // included|excluded|none
-			'vat': 0.2,
-			'weight': 0
-		},
-		'8k0x8jh8': {
-			'id': '8k0x8jh8',
-			'id_user': 'Product 3',
-			'name': 'Product 3',
-			'category': '97hs3bxj',
-			'showThumbsInShowBox': true,
-			'isNew': false,
-			'description': 'Sollicitudin ipsum, ipsum vivamus erat, convallis pulvinar luctus dolor consectetuer, erat erat vehicula neque pharetra',
-			'price': 10.4166667,
-			'staticAvailValue': 'unknown',
-			'images': ['images/product03.jpg'],
-			'imgObjects': [
-				{
-					"image": "images/product03.jpg",
-					"width": 1441,
+					"image": "images/Reaktor.png",
+					"width": 1080,
 					"height": 1080
 				}
 			],
@@ -150,39 +56,39 @@ var x5CartData = {
 				},
 				"js": {
 					"upload": {
-						"jsonly": "x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/product03.jpg','width': 1441,'height': 1080,'description': ''}]}, 0, this);",
-						"complete": "onclick=\"return x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/product03.jpg','width': 1441,'height': 1080,'description': ''}]}, 0, this);\""
+						"jsonly": "x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/Reaktor.png','width': 1080,'height': 1080,'description': ''}]}, 0, this);",
+						"complete": "onclick=\"return x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/Reaktor.png','width': 1080,'height': 1080,'description': ''}]}, 0, this);\""
 					},
 					"offline": {
-						"jsonly": "x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/product03.jpg','width': 1441,'height': 1080,'description': ''}]}, 0, this);",
-						"complete": "onclick=\"return x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/product03.jpg','width': 1441,'height': 1080,'description': ''}]}, 0, this);\""
+						"jsonly": "x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/Reaktor.png','width': 1080,'height': 1080,'description': ''}]}, 0, this);",
+						"complete": "onclick=\"return x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/Reaktor.png','width': 1080,'height': 1080,'description': ''}]}, 0, this);\""
 					}
 				},
 				"html": {
-					"upload": "<script> showboxlinkbffa25fae3b3648c651be0db4af0d619 = {'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/product03.jpg','width': 1441,'height': 1080,'description': ''}]};</script>\n\n<a href=\"#\" onclick=\"return x5engine.imShowBox(showboxlinkbffa25fae3b3648c651be0db4af0d619, 0, this)\" class=\"<!--css_class_placeholder-->\"><!--html_content_placeholder--></a>",
-					"offline": "<script> showboxlinka1cc7660d42d1c74efbc2e16e40ee21c = {'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/product03.jpg','width': 1441,'height': 1080,'description': ''}]};</script>\n\n<a href=\"#\" onclick=\"return x5engine.imShowBox(showboxlinka1cc7660d42d1c74efbc2e16e40ee21c, 0, this)\" class=\"<!--css_class_placeholder-->\"><!--html_content_placeholder--></a>"
+					"upload": "<script> showboxlinka0948f54a97f19ab88b7fef7452a5a1b = {'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/Reaktor.png','width': 1080,'height': 1080,'description': ''}]};</script>\n\n<a href=\"#\" onclick=\"return x5engine.imShowBox(showboxlinka0948f54a97f19ab88b7fef7452a5a1b, 0, this)\" class=\"<!--css_class_placeholder-->\"><!--html_content_placeholder--></a>",
+					"offline": "<script> showboxlink358fe1afa77d60799702b274c9796cd7 = {'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/Reaktor.png','width': 1080,'height': 1080,'description': ''}]};</script>\n\n<a href=\"#\" onclick=\"return x5engine.imShowBox(showboxlink358fe1afa77d60799702b274c9796cd7, 0, this)\" class=\"<!--css_class_placeholder-->\"><!--html_content_placeholder--></a>"
 				}
 			},
 			'vattype': 'included', // included|excluded|none
 			'vat': 0.2,
 			'weight': 0
 		},
-		'o2ks346s': {
-			'id': 'o2ks346s',
-			'id_user': 'Product 4',
-			'name': 'Product 4',
-			'category': '97hs3bxj',
+		'fe6972yv': {
+			'id': 'fe6972yv',
+			'id_user': 'Omnisphere',
+			'name': 'Omnisphere',
+			'category': 'tz9l56ch',
 			'showThumbsInShowBox': true,
 			'isNew': false,
-			'description': 'Viverra laboris magna ut nulla. Aliquam nibh, non quisque duis elementum',
-			'price': 8.3333333,
+			'description': 'Category: Synthesizer<br />★★★★☆ (9496)',
+			'price': 416.6583333,
 			'staticAvailValue': 'unknown',
-			'images': ['images/product06.jpg'],
+			'images': ['images/omnisphere.jpg'],
 			'imgObjects': [
 				{
-					"image": "images/product06.jpg",
-					"width": 1441,
-					"height": 1080
+					"image": "images/omnisphere.jpg",
+					"width": 1500,
+					"height": 844
 				}
 			],
 			'link': null,
@@ -197,17 +103,299 @@ var x5CartData = {
 				},
 				"js": {
 					"upload": {
-						"jsonly": "x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/product06.jpg','width': 1441,'height': 1080,'description': ''}]}, 0, this);",
-						"complete": "onclick=\"return x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/product06.jpg','width': 1441,'height': 1080,'description': ''}]}, 0, this);\""
+						"jsonly": "x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/omnisphere.jpg','width': 1500,'height': 844,'description': ''}]}, 0, this);",
+						"complete": "onclick=\"return x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/omnisphere.jpg','width': 1500,'height': 844,'description': ''}]}, 0, this);\""
 					},
 					"offline": {
-						"jsonly": "x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/product06.jpg','width': 1441,'height': 1080,'description': ''}]}, 0, this);",
-						"complete": "onclick=\"return x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/product06.jpg','width': 1441,'height': 1080,'description': ''}]}, 0, this);\""
+						"jsonly": "x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/omnisphere.jpg','width': 1500,'height': 844,'description': ''}]}, 0, this);",
+						"complete": "onclick=\"return x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/omnisphere.jpg','width': 1500,'height': 844,'description': ''}]}, 0, this);\""
 					}
 				},
 				"html": {
-					"upload": "<script> showboxlinkf86437f01b0b541d0994914c4a298549 = {'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/product06.jpg','width': 1441,'height': 1080,'description': ''}]};</script>\n\n<a href=\"#\" onclick=\"return x5engine.imShowBox(showboxlinkf86437f01b0b541d0994914c4a298549, 0, this)\" class=\"<!--css_class_placeholder-->\"><!--html_content_placeholder--></a>",
-					"offline": "<script> showboxlink545b7124a933abcd406fe1f4887c10b3 = {'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/product06.jpg','width': 1441,'height': 1080,'description': ''}]};</script>\n\n<a href=\"#\" onclick=\"return x5engine.imShowBox(showboxlink545b7124a933abcd406fe1f4887c10b3, 0, this)\" class=\"<!--css_class_placeholder-->\"><!--html_content_placeholder--></a>"
+					"upload": "<script> showboxlink37c18cea59e52aed49abb61f4ea4b54d = {'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/omnisphere.jpg','width': 1500,'height': 844,'description': ''}]};</script>\n\n<a href=\"#\" onclick=\"return x5engine.imShowBox(showboxlink37c18cea59e52aed49abb61f4ea4b54d, 0, this)\" class=\"<!--css_class_placeholder-->\"><!--html_content_placeholder--></a>",
+					"offline": "<script> showboxlinka95d29d22472cfb6cbecd644c2c71ffe = {'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/omnisphere.jpg','width': 1500,'height': 844,'description': ''}]};</script>\n\n<a href=\"#\" onclick=\"return x5engine.imShowBox(showboxlinka95d29d22472cfb6cbecd644c2c71ffe, 0, this)\" class=\"<!--css_class_placeholder-->\"><!--html_content_placeholder--></a>"
+				}
+			},
+			'vattype': 'included', // included|excluded|none
+			'vat': 0.2,
+			'weight': 0
+		},
+		'slvet0kj': {
+			'id': 'slvet0kj',
+			'id_user': 'LABS',
+			'name': 'LABS',
+			'category': 'tz9l56ch',
+			'showThumbsInShowBox': true,
+			'isNew': false,
+			'description': 'Category: Effects<br />★★★★★ (1668)',
+			'price': 58.325,
+			'staticAvailValue': 'unknown',
+			'images': ['images/LABS.png'],
+			'imgObjects': [
+				{
+					"image": "images/LABS.png",
+					"width": 400,
+					"height": 400
+				}
+			],
+			'link': null,
+			'showboxLink': {
+				"type": "showboxgallery",
+				"tip": {
+					"image": "",
+					"imagePosition": "top",
+					"imagePercentWidth": 50,
+					"text": "",
+					"width": 180
+				},
+				"js": {
+					"upload": {
+						"jsonly": "x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/LABS.png','width': 400,'height': 400,'description': ''}]}, 0, this);",
+						"complete": "onclick=\"return x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/LABS.png','width': 400,'height': 400,'description': ''}]}, 0, this);\""
+					},
+					"offline": {
+						"jsonly": "x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/LABS.png','width': 400,'height': 400,'description': ''}]}, 0, this);",
+						"complete": "onclick=\"return x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/LABS.png','width': 400,'height': 400,'description': ''}]}, 0, this);\""
+					}
+				},
+				"html": {
+					"upload": "<script> showboxlink373cfe940b872155b4f008621d91b8b7 = {'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/LABS.png','width': 400,'height': 400,'description': ''}]};</script>\n\n<a href=\"#\" onclick=\"return x5engine.imShowBox(showboxlink373cfe940b872155b4f008621d91b8b7, 0, this)\" class=\"<!--css_class_placeholder-->\"><!--html_content_placeholder--></a>",
+					"offline": "<script> showboxlink52e07ad6067456224ee95b7b9005e6e4 = {'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/LABS.png','width': 400,'height': 400,'description': ''}]};</script>\n\n<a href=\"#\" onclick=\"return x5engine.imShowBox(showboxlink52e07ad6067456224ee95b7b9005e6e4, 0, this)\" class=\"<!--css_class_placeholder-->\"><!--html_content_placeholder--></a>"
+				}
+			},
+			'vattype': 'included', // included|excluded|none
+			'vat': 0.2,
+			'weight': 0
+		},
+		'rneugdkr': {
+			'id': 'rneugdkr',
+			'id_user': 'Serum',
+			'name': 'Serum',
+			'category': 'tz9l56ch',
+			'showThumbsInShowBox': true,
+			'isNew': false,
+			'description': 'Category: Guitar<br />★★★★★ (339)',
+			'price': 158.325,
+			'staticAvailValue': 'unknown',
+			'images': ['images/Serum.png'],
+			'imgObjects': [
+				{
+					"image": "images/Serum.png",
+					"width": 600,
+					"height": 600
+				}
+			],
+			'link': null,
+			'showboxLink': {
+				"type": "showboxgallery",
+				"tip": {
+					"image": "",
+					"imagePosition": "top",
+					"imagePercentWidth": 50,
+					"text": "",
+					"width": 180
+				},
+				"js": {
+					"upload": {
+						"jsonly": "x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/Serum.png','width': 600,'height': 600,'description': ''}]}, 0, this);",
+						"complete": "onclick=\"return x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/Serum.png','width': 600,'height': 600,'description': ''}]}, 0, this);\""
+					},
+					"offline": {
+						"jsonly": "x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/Serum.png','width': 600,'height': 600,'description': ''}]}, 0, this);",
+						"complete": "onclick=\"return x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/Serum.png','width': 600,'height': 600,'description': ''}]}, 0, this);\""
+					}
+				},
+				"html": {
+					"upload": "<script> showboxlink9a5d8eef19973f0e2e58f021d2cff219 = {'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/Serum.png','width': 600,'height': 600,'description': ''}]};</script>\n\n<a href=\"#\" onclick=\"return x5engine.imShowBox(showboxlink9a5d8eef19973f0e2e58f021d2cff219, 0, this)\" class=\"<!--css_class_placeholder-->\"><!--html_content_placeholder--></a>",
+					"offline": "<script> showboxlink81327072dc6b78bedf9ef9aa4b4a3111 = {'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/Serum.png','width': 600,'height': 600,'description': ''}]};</script>\n\n<a href=\"#\" onclick=\"return x5engine.imShowBox(showboxlink81327072dc6b78bedf9ef9aa4b4a3111, 0, this)\" class=\"<!--css_class_placeholder-->\"><!--html_content_placeholder--></a>"
+				}
+			},
+			'vattype': 'included', // included|excluded|none
+			'vat': 0.2,
+			'weight': 0
+		},
+		'y3bdi3df': {
+			'id': 'y3bdi3df',
+			'id_user': 'XO',
+			'name': 'XO',
+			'category': 'tz9l56ch',
+			'showThumbsInShowBox': true,
+			'isNew': false,
+			'description': 'Category: Guitar<br />★★★★★ (1227)',
+			'price': 149.9916667,
+			'staticAvailValue': 'unknown',
+			'images': ['images/XO.jpg'],
+			'imgObjects': [
+				{
+					"image": "images/XO.jpg",
+					"width": 1280,
+					"height": 720
+				}
+			],
+			'link': null,
+			'showboxLink': {
+				"type": "showboxgallery",
+				"tip": {
+					"image": "",
+					"imagePosition": "top",
+					"imagePercentWidth": 50,
+					"text": "",
+					"width": 180
+				},
+				"js": {
+					"upload": {
+						"jsonly": "x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/XO.jpg','width': 1280,'height': 720,'description': ''}]}, 0, this);",
+						"complete": "onclick=\"return x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/XO.jpg','width': 1280,'height': 720,'description': ''}]}, 0, this);\""
+					},
+					"offline": {
+						"jsonly": "x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/XO.jpg','width': 1280,'height': 720,'description': ''}]}, 0, this);",
+						"complete": "onclick=\"return x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/XO.jpg','width': 1280,'height': 720,'description': ''}]}, 0, this);\""
+					}
+				},
+				"html": {
+					"upload": "<script> showboxlink0400f1d796ff727a65ca69632f0ead8e = {'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/XO.jpg','width': 1280,'height': 720,'description': ''}]};</script>\n\n<a href=\"#\" onclick=\"return x5engine.imShowBox(showboxlink0400f1d796ff727a65ca69632f0ead8e, 0, this)\" class=\"<!--css_class_placeholder-->\"><!--html_content_placeholder--></a>",
+					"offline": "<script> showboxlinkd2c4c98ddaa79bc226512f00ea0b8b3d = {'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/XO.jpg','width': 1280,'height': 720,'description': ''}]};</script>\n\n<a href=\"#\" onclick=\"return x5engine.imShowBox(showboxlinkd2c4c98ddaa79bc226512f00ea0b8b3d, 0, this)\" class=\"<!--css_class_placeholder-->\"><!--html_content_placeholder--></a>"
+				}
+			},
+			'vattype': 'included', // included|excluded|none
+			'vat': 0.2,
+			'weight': 0
+		},
+		'f2kh6jyf': {
+			'id': 'f2kh6jyf',
+			'id_user': 'Superior Drummer',
+			'name': 'Superior Drummer',
+			'category': 'tz9l56ch',
+			'showThumbsInShowBox': true,
+			'isNew': false,
+			'description': 'Category: Drums<br />★★★★★ (8826)',
+			'price': 291.6583333,
+			'staticAvailValue': 'unknown',
+			'images': ['images/SD3.jpg'],
+			'imgObjects': [
+				{
+					"image": "images/SD3.jpg",
+					"width": 464,
+					"height": 600
+				}
+			],
+			'link': null,
+			'showboxLink': {
+				"type": "showboxgallery",
+				"tip": {
+					"image": "",
+					"imagePosition": "top",
+					"imagePercentWidth": 50,
+					"text": "",
+					"width": 180
+				},
+				"js": {
+					"upload": {
+						"jsonly": "x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/SD3.jpg','width': 464,'height': 600,'description': ''}]}, 0, this);",
+						"complete": "onclick=\"return x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/SD3.jpg','width': 464,'height': 600,'description': ''}]}, 0, this);\""
+					},
+					"offline": {
+						"jsonly": "x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/SD3.jpg','width': 464,'height': 600,'description': ''}]}, 0, this);",
+						"complete": "onclick=\"return x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/SD3.jpg','width': 464,'height': 600,'description': ''}]}, 0, this);\""
+					}
+				},
+				"html": {
+					"upload": "<script> showboxlinke408cb623a01f32308fcb424d5c91a4e = {'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/SD3.jpg','width': 464,'height': 600,'description': ''}]};</script>\n\n<a href=\"#\" onclick=\"return x5engine.imShowBox(showboxlinke408cb623a01f32308fcb424d5c91a4e, 0, this)\" class=\"<!--css_class_placeholder-->\"><!--html_content_placeholder--></a>",
+					"offline": "<script> showboxlink887bea7d315a22640035988dc2300029 = {'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/SD3.jpg','width': 464,'height': 600,'description': ''}]};</script>\n\n<a href=\"#\" onclick=\"return x5engine.imShowBox(showboxlink887bea7d315a22640035988dc2300029, 0, this)\" class=\"<!--css_class_placeholder-->\"><!--html_content_placeholder--></a>"
+				}
+			},
+			'vattype': 'included', // included|excluded|none
+			'vat': 0.2,
+			'weight': 0
+		},
+		'1ex7y2a9': {
+			'id': '1ex7y2a9',
+			'id_user': 'Vocal Synth',
+			'name': 'Vocal Synth',
+			'category': 'tz9l56ch',
+			'showThumbsInShowBox': true,
+			'isNew': false,
+			'description': 'Category: Synthesizer<br />★★★★★ (9993)',
+			'price': 166.6583333,
+			'staticAvailValue': 'unknown',
+			'images': ['images/VocalSynth.jpg'],
+			'imgObjects': [
+				{
+					"image": "images/VocalSynth.jpg",
+					"width": 670,
+					"height": 600
+				}
+			],
+			'link': null,
+			'showboxLink': {
+				"type": "showboxgallery",
+				"tip": {
+					"image": "",
+					"imagePosition": "top",
+					"imagePercentWidth": 50,
+					"text": "",
+					"width": 180
+				},
+				"js": {
+					"upload": {
+						"jsonly": "x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/VocalSynth.jpg','width': 670,'height': 600,'description': ''}]}, 0, this);",
+						"complete": "onclick=\"return x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/VocalSynth.jpg','width': 670,'height': 600,'description': ''}]}, 0, this);\""
+					},
+					"offline": {
+						"jsonly": "x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/VocalSynth.jpg','width': 670,'height': 600,'description': ''}]}, 0, this);",
+						"complete": "onclick=\"return x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/VocalSynth.jpg','width': 670,'height': 600,'description': ''}]}, 0, this);\""
+					}
+				},
+				"html": {
+					"upload": "<script> showboxlinkfcbce6f153967fa23eec8e67be7ebfd9 = {'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/VocalSynth.jpg','width': 670,'height': 600,'description': ''}]};</script>\n\n<a href=\"#\" onclick=\"return x5engine.imShowBox(showboxlinkfcbce6f153967fa23eec8e67be7ebfd9, 0, this)\" class=\"<!--css_class_placeholder-->\"><!--html_content_placeholder--></a>",
+					"offline": "<script> showboxlink5ab59692b963245f3f0b7992a284361f = {'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/VocalSynth.jpg','width': 670,'height': 600,'description': ''}]};</script>\n\n<a href=\"#\" onclick=\"return x5engine.imShowBox(showboxlink5ab59692b963245f3f0b7992a284361f, 0, this)\" class=\"<!--css_class_placeholder-->\"><!--html_content_placeholder--></a>"
+				}
+			},
+			'vattype': 'included', // included|excluded|none
+			'vat': 0.2,
+			'weight': 0
+		},
+		'k12grag0': {
+			'id': 'k12grag0',
+			'id_user': 'Diva',
+			'name': 'Diva',
+			'category': 'tz9l56ch',
+			'showThumbsInShowBox': true,
+			'isNew': false,
+			'description': 'Category: Effects<br />★★★★★ (4464)',
+			'price': 149.9916667,
+			'staticAvailValue': 'unknown',
+			'images': ['images/Diva.jpg'],
+			'imgObjects': [
+				{
+					"image": "images/Diva.jpg",
+					"width": 1000,
+					"height": 558
+				}
+			],
+			'link': null,
+			'showboxLink': {
+				"type": "showboxgallery",
+				"tip": {
+					"image": "",
+					"imagePosition": "top",
+					"imagePercentWidth": 50,
+					"text": "",
+					"width": 180
+				},
+				"js": {
+					"upload": {
+						"jsonly": "x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/Diva.jpg','width': 1000,'height': 558,'description': ''}]}, 0, this);",
+						"complete": "onclick=\"return x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/Diva.jpg','width': 1000,'height': 558,'description': ''}]}, 0, this);\""
+					},
+					"offline": {
+						"jsonly": "x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/Diva.jpg','width': 1000,'height': 558,'description': ''}]}, 0, this);",
+						"complete": "onclick=\"return x5engine.imShowBox({'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/Diva.jpg','width': 1000,'height': 558,'description': ''}]}, 0, this);\""
+					}
+				},
+				"html": {
+					"upload": "<script> showboxlinkc3ca31414784be70858c5b8fc9fe57ea = {'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/Diva.jpg','width': 1000,'height': 558,'description': ''}]};</script>\n\n<a href=\"#\" onclick=\"return x5engine.imShowBox(showboxlinkc3ca31414784be70858c5b8fc9fe57ea, 0, this)\" class=\"<!--css_class_placeholder-->\"><!--html_content_placeholder--></a>",
+					"offline": "<script> showboxlinkee00ca73eb04393b8f09df8620a04a5d = {'showThumbs': true,'media': [{'type': 'image','url': '<!--base_url_placeholder-->images/Diva.jpg','width': 1000,'height': 558,'description': ''}]};</script>\n\n<a href=\"#\" onclick=\"return x5engine.imShowBox(showboxlinkee00ca73eb04393b8f09df8620a04a5d, 0, this)\" class=\"<!--css_class_placeholder-->\"><!--html_content_placeholder--></a>"
 				}
 			},
 			'vattype': 'included', // included|excluded|none
@@ -216,41 +404,69 @@ var x5CartData = {
 		}
 	},
 	'products_ordered_by_price': [
-		'zfmbjtbz',
-		'o2ks346s',
-		'8k0x8jh8',
-		'qc0v13av'
+		'slvet0kj',
+		'xcne4bji',
+		'y3bdi3df',
+		'k12grag0',
+		'rneugdkr',
+		'1ex7y2a9',
+		'f2kh6jyf',
+		'fe6972yv'
 	],
 
 	// Cart Categories
 	'categories': {
 		"dataSource": [
 			{
-				"id": "97hs3bxj",
-				"text": "Teas",
+				"id": "tz9l56ch",
+				"text": "Plugins",
 				"type": "category",
 				"items": [
 					{
-						"id": "zfmbjtbz",
-						"text": "Product 1",
+						"id": "xcne4bji",
+						"text": "Reaktor",
 						"type": "product",
 						"items": null
 					},
 					{
-						"id": "qc0v13av",
-						"text": "Product 2",
+						"id": "fe6972yv",
+						"text": "Omnisphere",
 						"type": "product",
 						"items": null
 					},
 					{
-						"id": "8k0x8jh8",
-						"text": "Product 3",
+						"id": "slvet0kj",
+						"text": "LABS",
 						"type": "product",
 						"items": null
 					},
 					{
-						"id": "o2ks346s",
-						"text": "Product 4",
+						"id": "rneugdkr",
+						"text": "Serum",
+						"type": "product",
+						"items": null
+					},
+					{
+						"id": "y3bdi3df",
+						"text": "XO",
+						"type": "product",
+						"items": null
+					},
+					{
+						"id": "f2kh6jyf",
+						"text": "Superior Drummer",
+						"type": "product",
+						"items": null
+					},
+					{
+						"id": "1ex7y2a9",
+						"text": "Vocal Synth",
+						"type": "product",
+						"items": null
+					},
+					{
+						"id": "k12grag0",
+						"text": "Diva",
 						"type": "product",
 						"items": null
 					}

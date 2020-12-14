@@ -19,33 +19,61 @@ $imSettings['search']['general'] = array(
 	PRODUCTS SEARCH
 *****************/
 $imSettings['search']['products'] = array(
-	'zfmbjtbz' => array(
-		'name' => 'Product 1',
-		'description' => 'Laoreet faucibus et, viverra in cursus, massa sit nulla dictumst pede vestibulum, senectus dignissim turpis, non felis vitae dictum vel justo. A risus a porttitor interdum nec erat.',
-		'category' => 'Teas',
-		'image' => '<img src="images/product01.jpg" alt="Product 1" title="Product 1" onclick="x5engine.imShowBox({media:[{ type: \'image\', url: \'images/product01.jpg\', width: 800, height: 600, description: \'Laoreet faucibus et, viverra in cursus, massa sit nulla dictumst pede vestibulum, senectus dignissim turpis, non felis vitae dictum vel justo. A risus a porttitor interdum nec erat.\' }]}, 0, this)" style="cursor: pointer;"/>',
-		'price' => '10.00 $ (VAT incl.)'
+	'xcne4bji' => array(
+		'name' => 'Reaktor',
+		'description' => 'Category: Guitar, Keyboard, Synthesizer<br />★★★★★ (4982)',
+		'category' => 'Plugins',
+		'image' => '<img src="images/Reaktor.png" alt="Reaktor" title="Reaktor" onclick="x5engine.imShowBox({media:[{ type: \'image\', url: \'images/Reaktor.png\', width: 1080, height: 1080, description: \'Category: Guitar, Keyboard, Synthesizer&lt;br /&gt;★★★★★ (4982)\' }]}, 0, this)" style="cursor: pointer;"/>',
+		'price' => '169.99 € (VAT incl.)'
 	),
-	'qc0v13av' => array(
-		'name' => 'Product 2',
-		'description' => 'Lacus habitant dolor morbi urna in, ac leo magna sit tincidunt ut eget, tempor quam eget et auctor ut',
-		'category' => 'Teas',
-		'image' => '<img src="images/product02.jpg" alt="Product 2" title="Product 2" onclick="x5engine.imShowBox({media:[{ type: \'image\', url: \'images/product02.jpg\', width: 800, height: 600, description: \'Lacus habitant dolor morbi urna in, ac leo magna sit tincidunt ut eget, tempor quam eget et auctor ut\' }]}, 0, this)" style="cursor: pointer;"/>',
-		'price' => '20.00 $ (VAT incl.)'
+	'fe6972yv' => array(
+		'name' => 'Omnisphere',
+		'description' => 'Category: Synthesizer<br />★★★★☆ (9496)',
+		'category' => 'Plugins',
+		'image' => '<img src="images/omnisphere.jpg" alt="Omnisphere" title="Omnisphere" onclick="x5engine.imShowBox({media:[{ type: \'image\', url: \'images/omnisphere.jpg\', width: 1500, height: 844, description: \'Category: Synthesizer&lt;br /&gt;★★★★☆ (9496)\' }]}, 0, this)" style="cursor: pointer;"/>',
+		'price' => '499.99 € (VAT incl.)'
 	),
-	'8k0x8jh8' => array(
-		'name' => 'Product 3',
-		'description' => 'Sollicitudin ipsum, ipsum vivamus erat, convallis pulvinar luctus dolor consectetuer, erat erat vehicula neque pharetra',
-		'category' => 'Teas',
-		'image' => '<img src="images/product03.jpg" alt="Product 3" title="Product 3" onclick="x5engine.imShowBox({media:[{ type: \'image\', url: \'images/product03.jpg\', width: 1441, height: 1080, description: \'Sollicitudin ipsum, ipsum vivamus erat, convallis pulvinar luctus dolor consectetuer, erat erat vehicula neque pharetra\' }]}, 0, this)" style="cursor: pointer;"/>',
-		'price' => '12.50 $ (VAT incl.)'
+	'slvet0kj' => array(
+		'name' => 'LABS',
+		'description' => 'Category: Effects<br />★★★★★ (1668)',
+		'category' => 'Plugins',
+		'image' => '<img src="images/LABS.png" alt="LABS" title="LABS" onclick="x5engine.imShowBox({media:[{ type: \'image\', url: \'images/LABS.png\', width: 400, height: 400, description: \'Category: Effects&lt;br /&gt;★★★★★ (1668)\' }]}, 0, this)" style="cursor: pointer;"/>',
+		'price' => '69.99 € (VAT incl.)'
 	),
-	'o2ks346s' => array(
-		'name' => 'Product 4',
-		'description' => 'Viverra laboris magna ut nulla. Aliquam nibh, non quisque duis elementum',
-		'category' => 'Teas',
-		'image' => '<img src="images/product06.jpg" alt="Product 4" title="Product 4" onclick="x5engine.imShowBox({media:[{ type: \'image\', url: \'images/product06.jpg\', width: 1441, height: 1080, description: \'Viverra laboris magna ut nulla. Aliquam nibh, non quisque duis elementum\' }]}, 0, this)" style="cursor: pointer;"/>',
-		'price' => '10.00 $ (VAT incl.)'
+	'rneugdkr' => array(
+		'name' => 'Serum',
+		'description' => 'Category: Guitar<br />★★★★★ (339)',
+		'category' => 'Plugins',
+		'image' => '<img src="images/Serum.png" alt="Serum" title="Serum" onclick="x5engine.imShowBox({media:[{ type: \'image\', url: \'images/Serum.png\', width: 600, height: 600, description: \'Category: Guitar&lt;br /&gt;★★★★★ (339)\' }]}, 0, this)" style="cursor: pointer;"/>',
+		'price' => '189.99 € (VAT incl.)'
+	),
+	'y3bdi3df' => array(
+		'name' => 'XO',
+		'description' => 'Category: Guitar<br />★★★★★ (1227)',
+		'category' => 'Plugins',
+		'image' => '<img src="images/XO.jpg" alt="XO" title="XO" onclick="x5engine.imShowBox({media:[{ type: \'image\', url: \'images/XO.jpg\', width: 1280, height: 720, description: \'Category: Guitar&lt;br /&gt;★★★★★ (1227)\' }]}, 0, this)" style="cursor: pointer;"/>',
+		'price' => '179.99 € (VAT incl.)'
+	),
+	'f2kh6jyf' => array(
+		'name' => 'Superior Drummer',
+		'description' => 'Category: Drums<br />★★★★★ (8826)',
+		'category' => 'Plugins',
+		'image' => '<img src="images/SD3.jpg" alt="Superior Drummer" title="Superior Drummer" onclick="x5engine.imShowBox({media:[{ type: \'image\', url: \'images/SD3.jpg\', width: 464, height: 600, description: \'Category: Drums&lt;br /&gt;★★★★★ (8826)\' }]}, 0, this)" style="cursor: pointer;"/>',
+		'price' => '349.99 € (VAT incl.)'
+	),
+	'1ex7y2a9' => array(
+		'name' => 'Vocal Synth',
+		'description' => 'Category: Synthesizer<br />★★★★★ (9993)',
+		'category' => 'Plugins',
+		'image' => '<img src="images/VocalSynth.jpg" alt="Vocal Synth" title="Vocal Synth" onclick="x5engine.imShowBox({media:[{ type: \'image\', url: \'images/VocalSynth.jpg\', width: 670, height: 600, description: \'Category: Synthesizer&lt;br /&gt;★★★★★ (9993)\' }]}, 0, this)" style="cursor: pointer;"/>',
+		'price' => '199.99 € (VAT incl.)'
+	),
+	'k12grag0' => array(
+		'name' => 'Diva',
+		'description' => 'Category: Effects<br />★★★★★ (4464)',
+		'category' => 'Plugins',
+		'image' => '<img src="images/Diva.jpg" alt="Diva" title="Diva" onclick="x5engine.imShowBox({media:[{ type: \'image\', url: \'images/Diva.jpg\', width: 1000, height: 558, description: \'Category: Effects&lt;br /&gt;★★★★★ (4464)\' }]}, 0, this)" style="cursor: pointer;"/>',
+		'price' => '179.99 € (VAT incl.)'
 	)
 );
 

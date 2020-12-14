@@ -37,8 +37,8 @@ $imSettings['password_policy'] = array(
 |	Captcha
 |-------------------------------
 */ImTopic::$captcha_code = "		<div class=\"x5captcha-wrap\">
-			<label for=\"7w9lmrfd-imCpt\">Check word:</label><br />
-			<input type=\"text\" id=\"7w9lmrfd-imCpt\" class=\"imCpt\" name=\"imCpt\" maxlength=\"5\" />
+			<label for=\"99ye87mu-imCpt\">Check word:</label><br />
+			<input type=\"text\" id=\"99ye87mu-imCpt\" class=\"imCpt\" name=\"imCpt\" maxlength=\"5\" />
 		</div>
 ";
 
@@ -83,9 +83,9 @@ $ecommerce->setPriceFormatData(array(
 	'currency_to_right' => true,
 	'currency_separator' => ' ',
 	'show_zero_as' => '0',
-	'currency_symbol' => '$',
-	'currency_code' => 'USD',
-	'currency_name' => 'United States of America, Dollars',
+	'currency_symbol' => '€',
+	'currency_code' => 'EUR',
+	'currency_name' => 'Euro',
 ));
 
 
