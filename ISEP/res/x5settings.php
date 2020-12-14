@@ -37,8 +37,8 @@ $imSettings['password_policy'] = array(
 |	Captcha
 |-------------------------------
 */ImTopic::$captcha_code = "		<div class=\"x5captcha-wrap\">
-			<label for=\"99ye87mu-imCpt\">Check word:</label><br />
-			<input type=\"text\" id=\"99ye87mu-imCpt\" class=\"imCpt\" name=\"imCpt\" maxlength=\"5\" />
+			<label for=\"9h3rf0r6-imCpt\">Check word:</label><br />
+			<input type=\"text\" id=\"9h3rf0r6-imCpt\" class=\"imCpt\" name=\"imCpt\" maxlength=\"5\" />
 		</div>
 ";
 
@@ -95,7 +95,17 @@ $ecommerce->setPriceFormatData(array(
 |-------------------------------------------------------------------------------------------
 */
 
-$imSettings['guestbooks'] = array();
+$imSettings['guestbooks'] = array(
+	'x5gb102' => array(
+		'id' => 'x5gb102',
+		'pagetitle' => 'Omnisphere',
+		'celltitle' => '',
+		'rating' => TRUE,
+		'order' => 'asc', 
+		'sendmode' => 'file',
+		'folder' => '',
+	)
+);
 
 
 /*

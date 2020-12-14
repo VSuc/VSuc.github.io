@@ -159,9 +159,8 @@ max-height: 100%; position: absolute; top: 0; bottom: 0; left: 3px; margin: auto
 #imFooter_imTextObject_01_tab0 .imVc { vertical-align: middle; }
 #imFooter_imTextObject_01_tab0 .imVb { vertical-align: bottom; }
 #imFooter_imTextObject_01_tab0 hr { border-width: 1px 0 0 0; border-style: solid; }
-#imFooter_imTextObject_01_tab0 .fs20lh1-5 { vertical-align: baseline; font-size: 20pt; line-height: 40px; }
+#imFooter_imTextObject_01_tab0 .fs18lh1-5 { vertical-align: baseline; font-size: 18pt; line-height: 36px; }
 #imFooter_imTextObject_01_tab0 .cf1 { color: rgb(255, 255, 255); }
-#imFooter_imTextObject_01_tab0 .ff1 { font-family: 'Playfair Display'; }
 #imFooter_imTextObject_01 .text-container {width: 100%;}#imFooter_imTextObject_01 .text-container {margin: 0 auto; position: relative;overflow: hidden; display: -ms-grid; display: grid; -ms-grid-template-rows: 1fr; grid-template-rows: 1fr; -ms-grid-template-columns: 1fr; grid-template-columns: 1fr; background-color: rgba(255, 255, 255, 1); border-style: solid;border-color: rgba(169, 169, 169, 1); }
 #imFooter_imTextObject_01 .text-container .grid-prop.current-tab {z-index: 1; opacity: 1;  }
 #imFooter_imTextObject_01 .text-container .grid-prop {-ms-grid-column: 1; -ms-grid-row: 1; grid-area: 1 / 1 / 2 / 2; opacity: 0; box-sizing: border-box; position: relative;  }

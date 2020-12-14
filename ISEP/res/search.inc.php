@@ -9,7 +9,8 @@ $imSettings['search']['general'] = array(
 		'0' => 'index.html',
 		'7' => 'browse.html',
 		'8' => 'about.html',
-		'9' => 'contact-us.html'
+		'9' => 'contact-us.html',
+		'10' => 'omnisphere.php'
 	),
 	'extendedScope' => array(
 	)
@@ -27,10 +28,10 @@ $imSettings['search']['products'] = array(
 		'price' => '169.99 € (VAT incl.)'
 	),
 	'fe6972yv' => array(
-		'name' => 'Omnisphere',
+		'name' => 'Omnisphere (CONTAINS DESCRIPTION!!)',
 		'description' => 'Category: Synthesizer<br />★★★★☆ (9496)',
 		'category' => 'Plugins',
-		'image' => '<img src="images/omnisphere.jpg" alt="Omnisphere" title="Omnisphere" onclick="x5engine.imShowBox({media:[{ type: \'image\', url: \'images/omnisphere.jpg\', width: 1500, height: 844, description: \'Category: Synthesizer&lt;br /&gt;★★★★☆ (9496)\' }]}, 0, this)" style="cursor: pointer;"/>',
+		'image' => '<a href="omnisphere.php" onclick="return x5engine.utils.location(\'omnisphere.php\', null, false)"><img src="images/omnisphere.jpg" alt="Omnisphere (CONTAINS DESCRIPTION!!)" title="Omnisphere (CONTAINS DESCRIPTION!!)"/></a>',
 		'price' => '499.99 € (VAT incl.)'
 	),
 	'slvet0kj' => array(

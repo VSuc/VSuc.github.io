@@ -1,31 +1,30 @@
+<?php require_once("res/x5engine.php"); ?>
 <!DOCTYPE html><!-- HTML5 -->
 <html prefix="og: http://ogp.me/ns#" lang="en-GB" dir="ltr">
 	<head>
-		<title>Shopping Cart: Cart - New Project</title>
+		<title>Omnisphere - New Project</title>
 		<meta charset="utf-8" />
 		<!--[if IE]><meta http-equiv="ImageToolbar" content="False" /><![endif]-->
 		<meta name="generator" content="Incomedia WebSite X5 Evo 2020.2.7 - www.websitex5.com" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		
-		<link rel="stylesheet" href="../style/reset.css?2020-2-7-0" media="screen,print" />
-		<link rel="stylesheet" href="../style/print.css?2020-2-7-0" media="print" />
-		<link rel="stylesheet" href="../style/style.css?2020-2-7-0" media="screen,print" />
-		<link rel="stylesheet" href="../style/template.css?2020-2-7-0" media="screen" />
-		<link rel="stylesheet" href="../pluginAppObj/imHeader_pluginAppObj_03/custom.css" media="screen, print" />
-		<link rel="stylesheet" href="../pluginAppObj/imFooter_pluginAppObj_03/custom.css" media="screen, print" />
-		<link rel="stylesheet" href="../cart/style.css?2020-2-7-0-637435734270688647" media="screen,print" />
-		<script src="../res/jquery.js?2020-2-7-0"></script>
-		<script src="../res/x5engine.js?2020-2-7-0" data-files-version="2020-2-7-0"></script>
-		<script src="../pluginAppObj/imHeader_pluginAppObj_03/main.js"></script>
-		<script src="../pluginAppObj/imFooter_pluginAppObj_03/main.js"></script>
+		<link rel="stylesheet" href="style/reset.css?2020-2-7-0" media="screen,print" />
+		<link rel="stylesheet" href="style/print.css?2020-2-7-0" media="print" />
+		<link rel="stylesheet" href="style/style.css?2020-2-7-0" media="screen,print" />
+		<link rel="stylesheet" href="style/template.css?2020-2-7-0" media="screen" />
+		<link rel="stylesheet" href="pluginAppObj/imHeader_pluginAppObj_03/custom.css" media="screen, print" />
+		<link rel="stylesheet" href="pluginAppObj/imFooter_pluginAppObj_03/custom.css" media="screen, print" />
+		<link rel="stylesheet" href="pcss/omnisphere.css?2020-2-7-0-637435734271037722" media="screen,print" />
+		<script src="res/jquery.js?2020-2-7-0"></script>
+		<script src="res/x5engine.js?2020-2-7-0" data-files-version="2020-2-7-0"></script>
+		<script src="pluginAppObj/imHeader_pluginAppObj_03/main.js"></script>
+		<script src="pluginAppObj/imFooter_pluginAppObj_03/main.js"></script>
 		<script>
 			window.onload = function(){ checkBrowserCompatibility('Your browser does not support the features necessary to display this website.','Your browser may not support the features necessary to display this website.','[1]Update your browser[/1] or [2]continue without updating[/2].','http://outdatedbrowser.com/'); };
-			x5engine.settings.currentPath = '../';
-			x5engine.utils.currentPagePath = 'cart/index.html';
+			x5engine.utils.currentPagePath = 'omnisphere.php';
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
 		
-		<script>x5engine.boot.push('x5engine.cart.ui.show()', false, 6);</script>
 	</head>
 	<body>
 		<div id="imPageExtContainer">
@@ -34,7 +33,7 @@
 				<div id="imFooterBg"></div>
 				<div id="imPage">
 					<header id="imHeader">
-						<h1 class="imHidden">Shopping Cart: Cart - New Project</h1>
+						<h1 class="imHidden">Omnisphere - New Project</h1>
 						<div id="imHeaderObjects"><div id="imHeader_imMenuObject_02_wrapper" class="template-object-wrapper"><!-- UNSEARCHABLE --><div id="imHeader_imMenuObject_02"><div id="imHeader_imMenuObject_02_container"><div class="hamburger-button hamburger-component"><div><div><div class="hamburger-bar"></div><div class="hamburger-bar"></div><div class="hamburger-bar"></div></div></div></div><div class="hamburger-menu-background-container hamburger-component">
 	<div class="hamburger-menu-background menu-mobile menu-mobile-animated hidden">
 		<div class="hamburger-menu-close-button"><span>&times;</span></div>
@@ -44,32 +43,32 @@
 	<li class="imMnMnFirst imPage" data-link-paths=",/index.html,/">
 <div class="label-wrapper">
 <div class="label-inner-wrapper">
-		<a class="label" href="../index.html">
+		<a class="label" href="index.html">
 Home		</a>
 </div>
 </div>
 	</li><li class="imMnMnMiddle imPage" data-link-paths=",/browse.html">
 <div class="label-wrapper">
 <div class="label-inner-wrapper">
-		<a class="label" href="../browse.html">
+		<a class="label" href="browse.html">
 Browse		</a>
 </div>
 </div>
 	</li><li class="imMnMnMiddle imPage" data-link-paths=",/about.html">
 <div class="label-wrapper">
 <div class="label-inner-wrapper">
-		<a class="label" href="../about.html">
+		<a class="label" href="about.html">
 About		</a>
 </div>
 </div>
 	</li><li class="imMnMnMiddle imPage" data-link-paths=",/contact-us.html">
 <div class="label-wrapper">
 <div class="label-inner-wrapper">
-		<a class="label" href="../contact-us.html">
+		<a class="label" href="contact-us.html">
 Contact Us		</a>
 </div>
 </div>
-	</li><li class="imMnMnLast imLevel" data-link-paths=",/cart/index.html,/cart/" data-link-hash="-1004162320"><div class="label-wrapper"><div class="label-inner-wrapper"><a href="../cart/index.html" class="label" onclick="return x5engine.utils.location('../cart/index.html', null, false)">Cart</a></div></div></li></ul></div></div><!-- UNSEARCHABLE END --><script>
+	</li><li class="imMnMnLast imLevel" data-link-paths=",/cart/index.html,/cart/" data-link-hash="-1004162320"><div class="label-wrapper"><div class="label-inner-wrapper"><a href="cart/index.html" class="label" onclick="return x5engine.utils.location('cart/index.html', null, false)">Cart</a></div></div></li></ul></div></div><!-- UNSEARCHABLE END --><script>
 var imHeader_imMenuObject_02_settings = {
 	'menuId': 'imHeader_imMenuObject_02',
 	'responsiveMenuEffect': 'slide',
@@ -89,7 +88,7 @@ $(function () {$('#imHeader_imMenuObject_02_container > ul > li').not('.imMnMnSe
                 <script>
                     socialicons_imHeader_pluginAppObj_03();
                 </script>
-        </div></div><div id="imHeader_imObjectImage_04_wrapper" class="template-object-wrapper"><div id="imHeader_imObjectImage_04"><div id="imHeader_imObjectImage_04_container"><img src="../images/logo_no_slogan.png" title="" alt="" />
+        </div></div><div id="imHeader_imObjectImage_04_wrapper" class="template-object-wrapper"><div id="imHeader_imObjectImage_04"><div id="imHeader_imObjectImage_04_container"><img src="images/logo_no_slogan.png" title="" alt="" />
 </div></div></div><div id="imHeader_imTextObject_05_wrapper" class="template-object-wrapper"><div id="imHeader_imTextObject_05">
 	<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imHeader_imTextObject_05_tab0" style="opacity: 1; ">
 		<div class="text-inner">
@@ -108,35 +107,43 @@ $(function () {$('#imHeader_imMenuObject_02_container > ul > li').not('.imMnMnSe
 					</div>
 					<a class="imHidden" href="#imGoToCont" title="Skip the main menu">Go to content</a>
 					<div id="imSideBar">
-						<div id="imSideBarObjects"><div id="imSideBar_imObjectImage_01_wrapper" class="template-object-wrapper"><div id="imSideBar_imObjectImage_01"><div id="imSideBar_imObjectImage_01_container"><img src="../images/empty-GT_imagea-1-.png" title="" alt="" />
+						<div id="imSideBarObjects"><div id="imSideBar_imObjectImage_01_wrapper" class="template-object-wrapper"><div id="imSideBar_imObjectImage_01"><div id="imSideBar_imObjectImage_01_container"><img src="images/empty-GT_imagea-1-.png" title="" alt="" />
 </div></div></div></div>
 					</div>
 					<div id="imContentGraphics"></div>
 					<main id="imContent">
 						<a id="imGoToCont"></a>
-						<div id="imCartContainer">
-						   <div id="cart-loading">Loading...</div>   <div id="cart-container">
-						       <div id="cart-header"></div>
-						       <div id="cart-content"></div>
-						       <div id="cart-sidebar"></div>
-						   </div></div><script>
-						function checkStyle() {
-						   var container_width = $('#cart-container').innerWidth();
-						   if(container_width < 795) {
-						   		$('#cart-container .cart-table .first-column').addClass('last-x');
-						   }
-						   else {
-						   		$('#cart-container .cart-table .first-column').removeClass('last-x');
-						   }
-						}
-						checkStyle();
-						var doit;
-						window.onresize = function() {
-							clearTimeout(doit);
-							doit = setTimeout(checkStyle, 10);
-						};
-						</script>
+						<header>
+							<h2 id="imPgTitle">Omnisphere</h2>
+						</header>
+						<div id="imPageRow_1" class="imPageRow">
 						
+						</div>
+						<div id="imCell_1" class=""  data-responsive-sequence-number="1"> <div id="imCellStyleGraphics_1"></div><div id="imCellStyleBorders_1"></div><div id="imTextObject_10_01">
+							<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imTextObject_10_01_tab0" style="opacity: 1; ">
+								<div class="text-inner">
+									<div><span class="fs36lh1-5">OMNISPHERE</span></div><div><img class="image-0" src="images/omnisphere_a83al52t.jpg"  title="" alt=""/><span class="fs11lh1-5"><span class="cf1"><br></span></span></div><div><span class="fs11lh1-5"><span class="cf1">Omnisphere® is the flagship synthesizer of Spectrasonics - an instrument of extraordinary power and versatility. Top Artists all over the world rely on Omnisphere as an essential source of sonic inspiration. This award-winning software brings many different types of synthesis together into one amazing-sounding instrument that will spark a lifetime of exploration.</span><br></span><img class="image-1" src="images/omnisphere_desc.jpg"  title="" alt=""/><span class="fs11lh1-5"><br></span></div><div><span class="fs11lh1-5 cf1">Hardware Synth Integration</span></div><div><span class="fs11lh1-5"><span class="cf1">Omnisphere is the only software synth in the world to offer a</span><span class="cf1"> </span><strong><span class="cf1">Hardware Synth Integration</span></strong><span class="cf1"> </span><span class="cf1">feature. This remarkable innovation transforms over 65 well-known hardware synthesizers into extensive hands-on controllers that unlock Omnisphere’s newly expanded synthesis capabilities. Simply put, this ground-breaking feature makes using Omnisphere feel just like using a hardware synth! By bridging the physical experience gap between software and hardware, users gain intuitive control of Omnisphere by using the familiar layout of their supported hardware synth. Virtual instrument users can now experience the joy of the hardware synth workflow and hardware synth users can fully expand their capabilities into the vast sonic world of Omnisphere!</span></span></div>
+								</div>
+							</div>
+						
+						</div>
+						</div><div id="imCell_3"></div><div id="imPageRow_2" class="imPageRow">
+						
+						</div>
+						<div id="imCell_2" class=""  data-responsive-sequence-number="3"> <div id="imCellStyleGraphics_2"></div><div id="imCellStyleBorders_2"></div><div id="GuestBookObject_10_02">
+						<?php
+						$gb = new ImTopic('x5gb102');
+						$gb->setCommentsPerPage(1);
+						$gb->setTitle('Omnisphere');
+						$gb->loadXML(pathCombine(array($imSettings['general']['public_folder'], '')));
+						$gb->showSummary(true);
+						$newMessage = $gb->checkNewMessages(false, '', 'guestbook', $imSettings['general']['url'] . 'admin/guestbook.php?id=x5gb102');
+						$gb->showForm(true, false, false, '', 'guestbook', $imSettings['general']['url'] . 'admin/guestbook.php?id=x5gb102');
+						$gb->showComments(true, 'asc', false);
+						?>
+						<script>x5engine.boot.push('x5engine.topic({ target: \'#GuestBookObject_10_02\', scrollbar: false})', false, 6);</script>
+						</div>
+						</div>
 					</main>
 					<footer id="imFooter">
 						<div id="imFooterObjects"><div id="imFooter_imTextObject_01_wrapper" class="template-object-wrapper"><div id="imFooter_imTextObject_01">
@@ -156,32 +163,32 @@ $(function () {$('#imHeader_imMenuObject_02_container > ul > li').not('.imMnMnSe
 	<li class="imMnMnFirst imPage" data-link-paths=",/index.html,/">
 <div class="label-wrapper">
 <div class="label-inner-wrapper">
-		<a class="label" href="../index.html">
+		<a class="label" href="index.html">
 Home		</a>
 </div>
 </div>
 	</li><li class="imMnMnMiddle imPage" data-link-paths=",/browse.html">
 <div class="label-wrapper">
 <div class="label-inner-wrapper">
-		<a class="label" href="../browse.html">
+		<a class="label" href="browse.html">
 Browse		</a>
 </div>
 </div>
 	</li><li class="imMnMnMiddle imPage" data-link-paths=",/about.html">
 <div class="label-wrapper">
 <div class="label-inner-wrapper">
-		<a class="label" href="../about.html">
+		<a class="label" href="about.html">
 About		</a>
 </div>
 </div>
 	</li><li class="imMnMnMiddle imPage" data-link-paths=",/contact-us.html">
 <div class="label-wrapper">
 <div class="label-inner-wrapper">
-		<a class="label" href="../contact-us.html">
+		<a class="label" href="contact-us.html">
 Contact Us		</a>
 </div>
 </div>
-	</li><li class="imMnMnLast imLevel" data-link-paths=",/cart/index.html,/cart/" data-link-hash="-1004162320"><div class="label-wrapper"><div class="label-inner-wrapper"><a href="../cart/index.html" class="label" onclick="return x5engine.utils.location('../cart/index.html', null, false)">Cart</a></div></div></li></ul></div></div><!-- UNSEARCHABLE END --><script>
+	</li><li class="imMnMnLast imLevel" data-link-paths=",/cart/index.html,/cart/" data-link-hash="-1004162320"><div class="label-wrapper"><div class="label-inner-wrapper"><a href="cart/index.html" class="label" onclick="return x5engine.utils.location('cart/index.html', null, false)">Cart</a></div></div></li></ul></div></div><!-- UNSEARCHABLE END --><script>
 var imFooter_imMenuObject_02_settings = {
 	'menuId': 'imFooter_imMenuObject_02',
 	'responsiveMenuEffect': 'slide',
@@ -207,7 +214,7 @@ $(function () {$('#imFooter_imMenuObject_02_container > ul > li').not('.imMnMnSe
 				<span class="imHidden"><a href="#imGoToCont" title="Read this page again">Back to content</a></span>
 			</div>
 		</div>
-		<script src="../cart/x5cart.js?2020-2-7-0-637435734270688647"></script>
+		<script src="cart/x5cart.js?2020-2-7-0-637435734271037722"></script>
 
 		<noscript class="imNoScript"><div class="alert alert-red">To use this website you must enable JavaScript.</div></noscript>
 	</body>
